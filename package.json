@@ -1,0 +1,34 @@
+{
+  "name": "env-sync-example",
+  "version": "1.0.0",
+  "description": "Generate safe .env.example files while preserving the structure of .env files.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PASSNIM/env-sync-example.git"
+  },
+  "bugs": "https://github.com/PASSNIM/env-sync-example/issues",
+  "homepage": "https://github.com/PASSNIM/env-sync-example#readme",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "env-sync-example": "./index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dotenv",
+    "env",
+    "example",
+    "cli",
+    "zero-dependency"
+  ]
+}
